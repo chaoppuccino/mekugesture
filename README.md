@@ -1,6 +1,6 @@
 # MekuGesture
 
-**MekuGesture** is a lightweight fullscreen image viewer designed for timed gesture drawing practice. It allows users to cycle through reference images at a specified interval, with manual navigation and persistent tracking of previously displayed images.
+**MekuGesture** is a lightweight fullscreen image viewer in development, designed for timed gesture drawing practice. It allows users to cycle through reference images at a specified interval, with manual navigation and persistent tracking of previously displayed images.
 
 ## Features
 - **Timed Image Cycling** – Automatically switches images based on a user-defined interval.
