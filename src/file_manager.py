@@ -42,8 +42,12 @@ class FileManager:
         self.seconds = new_seconds
 
     def _update_all_images(self): 
-        return [entry.name for entry in os.scandir(self.directory)
+        self.all_images = [entry.name for entry in os.scandir(self.directory)
                 if entry.is_file() and self._is_openable_image(entry.path)]
+        
+       
+
+        
 
     def _is_openable_image(self, filepath):
         try:

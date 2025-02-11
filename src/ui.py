@@ -11,8 +11,8 @@ class MekuGesture(tk.Tk):
         super().__init__()
 
         self.app_path = os.path.dirname(os.path.abspath(__file__))
-        self.icon_path = os.path.join(self.app_path, "graphics", "icon.ico")
-        self.themes_path = os.path.join(self.app_path, "themes")
+        self.icon_path = os.path.join(self.app_path, "..","graphics", "icon.ico")
+        self.themes_path = os.path.join(self.app_path, "..", "themes")
 
         self.file_manager = file_manager
 
